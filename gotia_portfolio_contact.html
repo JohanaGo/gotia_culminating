@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Me | Johana Gotia</title>
+    <link rel="stylesheet" href="gotia_portfolio.css">
+</head>
+<body>
+
+    <nav>
+        <a href="gotia_portfolio_index.html">Home</a>
+        <a href="gotia_portfolio_about.html">About Me</a>
+        <a href="gotia_portfolio_credentials.html">Credentials</a>
+        <a href="gotia_portfolio_contact.html">Contact Me</a>
+    </nav>
+
+    <section id="contact" class="contact-form">
+        <form>
+
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Last Name, First Name"><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="user-email" placeholder="email@domain.com"><br><br>
+
+            <label for="contact">Contact:</label><br>
+            <input type="tel" id="contact" name="contact" placeholder="(xx+) xxx-xxxx-xxx"><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="6" placeholder="Input your message here:"></textarea><br><br>
+
+            <fieldset>
+                <legend>Choose purpose:</legend>
+
+                <input type="checkbox" id="inquiry" name="inquiries" value="Inquiry">
+                <label for="inquiry">Inquiry</label><br>
+
+                <input type="checkbox" id="appointment" name="inquiries" value="Appointment">
+                <label for="appointment">For Appointment</label><br>
+
+                <input type="checkbox" id="cussup" name="inquiries" value="Customer Support">
+                <label for="cussup">Customer Support</label><br>
+                
+                <input type="checkbox" id="feedback" name="inquiries" value="Feedback">
+                <label for="feedback">Feedback</label><br>
+            </fieldset><br>
+
+            <fieldset>
+                <legend>Choose a service:</legend>
+
+                <input type="radio" id="coding" name="services" value="coding">
+                <label for="coding">Coding</label><br>
+                <input type="radio" id="web-design" name="services" value="Web Design">
+                <label for="web-design">Web Design</label><br>
+                <input type="radio" id="infographics" name="services" value="Infographics">
+                <label for="infographics">Infographics</label><br>
+            </fieldset><br>
+
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+    </section>  
+</body>
+</html>
